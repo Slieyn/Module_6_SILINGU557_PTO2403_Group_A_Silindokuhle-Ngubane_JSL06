@@ -35,7 +35,6 @@ main {
 
 #menu, #order {
     background-color: #fff;
-    border-radius: none;
     padding: 1rem;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -85,3 +84,9 @@ footer {
     width: 100%; /* Add this to span the full width */
 }
  
+button {
+    background-color:#fff;
+    border-color: #fff;
+    border: #fff;
+    cursor: pointer;
+}

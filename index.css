@@ -35,6 +35,7 @@ main {
 
 #menu, #order {
     background-color: #fff;
+    border-radius: none;
     padding: 1rem;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -83,9 +84,4 @@ footer {
     bottom: 0; /* Add this to position it at the bottom */
     width: 100%; /* Add this to span the full width */
 }
- .button {
-    border-color: #fff;
-    border-color: #fff;
-    border-radius: 1px;
- }
-
+ 

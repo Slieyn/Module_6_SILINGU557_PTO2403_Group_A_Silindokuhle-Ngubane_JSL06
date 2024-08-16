@@ -2,6 +2,7 @@
 body, h1, h2, p, ul {
     margin: 2px;
     padding: 4px;
+
 }
 
 body {
@@ -61,11 +62,12 @@ main {
     padding: 0;
 }
 
-#menu li, #order li {
+#menu li:hover, #order li:hover {
+    padding: 2px;
     margin-bottom: 0.5rem;
     content: hidden;
     cursor: pointer;
-    transition: background-color 0.3s ease; /* Add this for the animation */
+    transition: background-color 0.2s ease; /* Add this for the animation */
 }
 
 #order-total {
@@ -78,8 +80,12 @@ footer {
     background-color: #333;
     color: #fff;
     position: fixed; /* Add this to fix the footer at the bottom */
-    bottom: 2px; /* Add this to position it at the bottom */
+    bottom: 0; /* Add this to position it at the bottom */
     width: 100%; /* Add this to span the full width */
 }
-
+ .button {
+    border-color: #fff;
+    border-color: #fff;
+    border-radius: 1px;
+ }
 
